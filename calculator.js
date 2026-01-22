@@ -7,7 +7,7 @@ function minus(a, b) {
 }
 
 function multiply(a, b) {
-    return 0;
+    return a*b;
 }
 
 function divide(a, b) {
