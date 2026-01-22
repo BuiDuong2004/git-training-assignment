@@ -3,7 +3,7 @@ function plus(a, b) {
 }
 
 function minus(a, b) {
-    return 0;
+    return a-b;
 }
 
 function multiply(a, b) {
