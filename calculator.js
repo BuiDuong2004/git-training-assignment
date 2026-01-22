@@ -11,7 +11,9 @@ function multiply(a, b) {
 }
 
 function divide(a, b) {
-    return 0;
+  if (b === 0) throw new Error("Division by zero");
+  return a / b;
 }
+
 
 module.exports = { plus, minus, multiply, divide };
